@@ -4,6 +4,7 @@ body {
 		min-width: 720px;
 		max-width: 1024px;
 		margin: 0 auto;
+		/* hiding any overflow from being rendered */
 		overflow-x: hidden;
 		background: lightblue;
 }
@@ -39,6 +40,7 @@ nav li a {
 		background-color: rgba(255,0,0,0.6);
 }
 
+/* Displaying the pullquote on the left side of the page */
 .pquote {
 		display: block;
 		float: left;
@@ -52,6 +54,7 @@ nav li a {
 img {
 		box-shadow: 10px 10px 5px #888888;
 		border-radius: 20px;
+		/* adding a gradient background to the border */
 		background: darkred;
 		background: -webkit-linear-gradient(left, darkred , gold);
 		background: -o-linear-gradient(right, darkred, gold);
